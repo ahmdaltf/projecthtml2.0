@@ -10,24 +10,27 @@ body{
     margin-top: 0px ;
     font-size: 50px;
     display: inline-block;
-    position: absolute;
-    left: 800px;
-    top: 230px;
+    position: relative;
+    left: 50%;
+    top: -200px;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
     
 }
 
 .upper{  
     position: relative;
-    background-color: #131217;    
+    background-color: #131217; 
+    width: 30%;   
 }
 
 .pp{
-    position: absolute;
+    position: relative;
     display: inline-block;
     margin: 0px 0px 0px 0px;
-    left: 300px;
+    right: 130px;
     filter: drop-shadow(-20px 0px 5px #000000);
+    width: 100%;
 }
 
 
@@ -36,29 +39,34 @@ body{
     color: #EDE6D9;
     margin-top: 0px ; 
     font-size: 15px;   
-    position:absolute;
+    position:relative;
     display: inline-block;
-    left: 800px;   
-    top: 295px;
+    left: 50%;   
+    top: -230px;
     font-family: 'Delius Swash Caps', cursive;
+    width: 100%;
 }
 
 .para1{
-    color: #EDE6D9;
-    margin-top: 0px ; 
-    font-size: 15px;   
-    position:absolute;
-    display: inline-block;
-    left: 800px;   
-    top: 320px;
-    font-family: 'Delius Swash Caps', cursive;
+  color: #EDE6D9;
+  margin-top: 0px ; 
+  font-size: 15px;   
+  position:relative;
+  display: inline-block;
+  left: 50%;   
+  top: -230px;
+  font-family: 'Delius Swash Caps', cursive;
+  width: 100%;
 }
+
+
 
 .abt{     
     font-family: 'Delius Swash Caps', cursive; 
     background-color: #09080A;
     position: relative;
-    top: 480px;
+    width: 100%;
+    top: -90px;
 }
 
 
@@ -81,17 +89,19 @@ body{
     font-family: 'Delius Swash Caps', cursive; 
     background-color: #09080A;
     position: relative;
-    top: 440px;
+    top: -120px;
     padding-bottom: 30px;
     font-size: 17px;
+    
 }
 
 .skill{
     font-family: 'Delius Swash Caps', cursive; 
     background-color: #09080A;
     position: relative;
-    top: 410px;
+    top: -150px;
     font-size: 17px;
+    width: 100%;
 
 }
 
@@ -126,7 +136,8 @@ a{
     font-family: 'Delius Swash Caps', cursive; 
     background-color: #131217;
     position: relative;
-    top: 385px;
+    top: -180px;
+    width: 100%;
 
 }
 
@@ -167,9 +178,99 @@ input[type=submit]{
     font-family: 'Delius Swash Caps', cursive;
     font-weight: bold;
     padding: 10px 20px;
-    font-size: 15px;
-    
+    font-size: 15px;   
 }
+
+input[type=range] {
+  height: 0px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 20%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 13px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #09080A;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 25px;
+  width: 25px;
+  border-radius: 50px;
+  background: #EDE6D9;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -8.5px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #09080A;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 13px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #09080A;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background: #EDE6D9;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 13px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #09080A;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-fill-upper {
+  background: #09080A;
+  border: 0px solid #000101;
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  background: #EDE6D9;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #09080A;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #09080A;
+}
+
 
 .mess{
     font-size: 20px;
@@ -180,100 +281,14 @@ input[type=submit]{
     font-family: 'Delius Swash Caps', cursive; 
     background-color: #09080A;
     position: relative;
-    top: 390px;
+    top:-190px;   
 }
 
 .last{
     padding: 200px 0px 180px;
 }
-   
 
-input[type=range] {
-    height: 0px;
-    -webkit-appearance: none;
-    margin: 10px 0;
-    width: 20%;
-  }
-  input[type=range]:focus {
-    outline: none;
-  }
-  input[type=range]::-webkit-slider-runnable-track {
-    width: 100%;
-    height: 13px;
-    cursor: pointer;
-    animate: 0.2s;
-    box-shadow: 0px 0px 0px #000000;
-    background: #09080A;
-    border-radius: 25px;
-    border: 0px solid #000101;
-  }
-  input[type=range]::-webkit-slider-thumb {
-    box-shadow: 0px 0px 0px #000000;
-    border: 0px solid #000000;
-    height: 25px;
-    width: 25px;
-    border-radius: 50px;
-    background: #EDE6D9;
-    cursor: pointer;
-    -webkit-appearance: none;
-    margin-top: -8.5px;
-  }
-  input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #09080A;
-  }
-  input[type=range]::-moz-range-track {
-    width: 100%;
-    height: 13px;
-    cursor: pointer;
-    animate: 0.2s;
-    box-shadow: 0px 0px 0px #000000;
-    background: #09080A;
-    border-radius: 25px;
-    border: 0px solid #000101;
-  }
-  input[type=range]::-moz-range-thumb {
-    box-shadow: 0px 0px 0px #000000;
-    border: 0px solid #000000;
-    height: 30px;
-    width: 30px;
-    border-radius: 50px;
-    background: #EDE6D9;
-    cursor: pointer;
-  }
-  input[type=range]::-ms-track {
-    width: 100%;
-    height: 13px;
-    cursor: pointer;
-    animate: 0.2s;
-    background: transparent;
-    border-color: transparent;
-    color: transparent;
-  }
-  input[type=range]::-ms-fill-lower {
-    background: #09080A;
-    border: 0px solid #000101;
-    border-radius: 50px;
-    box-shadow: 0px 0px 0px #000000;
-  }
-  input[type=range]::-ms-fill-upper {
-    background: #09080A;
-    border: 0px solid #000101;
-    border-radius: 50px;
-    box-shadow: 0px 0px 0px #000000;
-  }
-  input[type=range]::-ms-thumb {
-    margin-top: 1px;
-    box-shadow: 0px 0px 0px #000000;
-    border: 0px solid #000000;
-    height: 30px;
-    width: 30px;
-    border-radius: 50px;
-    background: #EDE6D9;
-    cursor: pointer;
-  }
-  input[type=range]:focus::-ms-fill-lower {
-    background: #09080A;
-  }
-  input[type=range]:focus::-ms-fill-upper {
-    background: #09080A;
-  }
+.btt{  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
