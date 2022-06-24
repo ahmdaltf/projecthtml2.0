@@ -1,0 +1,193 @@
+body{
+   background-color: #131217;
+   margin: 0px;  
+   font-family: 'Montserrat', sans-serif; 
+   color: #EDE6D9; 
+}
+
+.text{
+    color: #EDE6D9;
+    margin-top: 0px ;
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    top: 230px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.upper{  
+    position: relative;
+    background-color: #131217;    
+}
+
+.pp{
+    position: absolute;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    left: 300px;
+    filter: drop-shadow(-20px 0px 5px #000000);
+}
+
+
+
+.para{
+    color: #EDE6D9;
+    margin-top: 0px ; 
+    font-size: 15px;   
+    position:absolute;
+    display: inline-block;
+    left: 800px;   
+    top: 295px;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.para1{
+    color: #EDE6D9;
+    margin-top: 0px ; 
+    font-size: 15px;   
+    position:absolute;
+    display: inline-block;
+    left: 800px;   
+    top: 320px;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.abt{     
+    font-family: 'Delius Swash Caps', cursive; 
+    background-color: #09080A;
+    position: relative;
+    top: 480px;
+}
+
+
+
+.me{
+    font-family: 'Delius Swash Caps', cursive;
+    padding-bottom: 60px; 
+    padding-top: 10px;
+    font-size: 20px;
+    
+}
+
+.ab{
+     padding: 10px 0px 30px; 
+     font-family: 'Montserrat', sans-serif;
+    
+}
+
+.cou{
+    font-family: 'Delius Swash Caps', cursive; 
+    background-color: #09080A;
+    position: relative;
+    top: 440px;
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+
+.skill{
+    font-family: 'Delius Swash Caps', cursive; 
+    background-color: #09080A;
+    position: relative;
+    top: 410px;
+    font-size: 17px;
+
+}
+
+.star{
+    padding-right: 5px;    
+    filter: brightness(30);
+} 
+
+.staro{
+    padding-right: 5px;
+}
+
+.nav{
+    padding-top: 10px;
+}
+
+.navi{
+    display: inline;
+    padding-right: 20px;
+    font-size: 17px;       
+}
+
+.table{
+    padding-bottom: 30px;
+}
+
+a{
+    color:inherit;
+}
+
+.cont{
+    font-family: 'Delius Swash Caps', cursive; 
+    background-color: #131217;
+    position: relative;
+    top: 385px;
+
+}
+
+input[type=text]{
+    background-color: #09080A;
+    color: #EDE6D9;
+    font-family: 'Delius Swash Caps', cursive;
+    border: 1px #09080A;
+    padding: 10px 10px;
+    width: 15%; 
+
+}
+
+input[type=email]{
+    background-color: #09080A;
+    color: #EDE6D9;
+    font-family: 'Delius Swash Caps', cursive;
+    border: 1px #09080A;
+    padding: 10px 10px;
+    width: 15%;
+}
+
+
+
+input[type=idk], select, textarea{
+    background-color: #09080A;
+    color: #EDE6D9;
+    font-family: 'Delius Swash Caps', cursive;
+    border: 1px #09080A;
+    width: 30%;
+    height: 300px;
+    
+}
+
+input[type=submit]{
+    background-color: #EDE6D9;
+    color: #131217;
+    font-family: 'Delius Swash Caps', cursive;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 15px;
+    
+}
+
+.mess{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.thanks{
+    font-family: 'Delius Swash Caps', cursive; 
+    background-color: #09080A;
+    position: relative;
+    top: 390px;
+}
+
+.last{
+    padding: 200px 0px 180px;
+}
+   
+
+    
+
+
